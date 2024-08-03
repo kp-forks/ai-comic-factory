@@ -44,7 +44,7 @@ Auth config:
 
 Rendering config:
 - `RENDERING_HF_INFERENCE_ENDPOINT_URL`: necessary if you decide to use a custom inference endpoint
-- `RENDERING_REPLICATE_API_MODEL_VERSION`: url to the VideoChain API server
+- `RENDERING_REPLICATE_API_MODEL_VERSION`: optional, only used of you use Replicate
 - `RENDERING_HF_INFERENCE_ENDPOINT_URL`: optional, default to nothing
 - `RENDERING_HF_INFERENCE_API_BASE_MODEL`: optional, defaults to "stabilityai/stable-diffusion-xl-base-1.0"
 - `RENDERING_HF_INFERENCE_API_REFINER_MODEL`: optional, defaults to "stabilityai/stable-diffusion-xl-refiner-1.0"
